@@ -1,0 +1,29 @@
+body {
+  font-size: 10px;
+}
+
+.block {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  max-width: 76rem;
+  position: relative;
+}
+
+.foreground {
+  background-image: url("./foreground.jpg");
+  background-position: 50%;
+  background-size: cover;
+  border-radius: 4rem;
+  bottom: 0;
+  height: 36rem;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+
+.list {
+  clip-path: circle(0);
+}
